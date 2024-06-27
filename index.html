@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Políticas de Privacidad - Internet - Puntaje</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const appName = urlParams.get('app') || 'la aplicación';
+            const developerName = 'Matias Angeluk';  // Replace with the actual developer name
+
+            document.getElementById('app-name-es').innerText = `Política de privacidad de ${appName}`;
+            document.getElementById('app-name-en').innerText = `Privacy Policy of ${appName}`;
+            document.getElementById('developer-name').innerText = developerName;
+        });
+    </script>
+</head>
+<body>
+    <h1 id="app-name-es"></h1>
+
+    <p>Nuestras aplicaciones respetan y protegen la privacidad de todos sus usuarios. A continuación, se detallan los aspectos clave de nuestra política de privacidad:</p>
+
+    <h2>Recopilación de datos:</h2>
+    <p>No recopilamos ningún tipo de información personal identificable de nuestros usuarios.</p>
+
+    <h2>Uso de información:</h2>
+    <p>Como no recopilamos datos de usuario, no hay ninguna información que utilizamos con fines de análisis, marketing u otros propósitos.</p>
+
+    <h2>Cookies y seguimiento:</h2>
+    <p>Nuestra aplicación no utiliza cookies ni realiza ningún tipo de seguimiento de actividad del usuario.</p>
+
+    <h2>Comunicación con el usuario:</h2>
+    <p>No enviamos correos electrónicos no solicitados ni mensajes a nuestros usuarios.</p>
+
+    <h2>Seguridad de datos:</h2>
+    <p>Aunque no recopilamos datos, mantenemos estrictas medidas de seguridad para proteger cualquier información potencialmente sensible.</p>
+
+    <h2>Cambios en la política de privacidad:</h2>
+    <p>En caso de realizar cambios en nuestra política de privacidad, los usuarios serán informados a través de actualizaciones en la aplicación o en nuestro sitio web.</p>
+
+    <h2>Uso de Internet:</h2>
+    <p>En caso de que alguna aplicación use internet, se usa para enviar el puntaje del juego.</p>
+
+    <p>Desarrollador: <span id="developer-name"></span></p>
+
+    <hr>
+
+    <h1 id="app-name-en"></h1>
+
+    <p>Our applications respect and protect the privacy of all their users. Below are the key aspects of our privacy policy:</p>
+
+    <h2>Data Collection:</h2>
+    <p>We do not collect any personally identifiable information from our users.</p>
+
+    <h2>Use of Information:</h2>
+    <p>Since we do not collect user data, there is no information that we use for analysis, marketing, or other purposes.</p>
+
+    <h2>Cookies and Tracking:</h2>
+    <p>Our application does not use cookies or perform any type of user activity tracking.</p>
+
+    <h2>User Communication:</h2>
+    <p>We do not send unsolicited emails or messages to our users.</p>
+
+    <h2>Data Security:</h2>
+    <p>Although we do not collect data, we maintain strict security measures to protect any potentially sensitive information.</p>
+
+    <h2>Changes to the Privacy Policy:</h2>
+    <p>In the event of changes to our privacy policy, users will be informed through updates in the application or on our website.</p>
+
+    <h2>Internet Usage:</h2>
+    <p>In the case that any application uses the internet, it is used to send the game score.</p>
+
+    <p>Developer: <span id="developer-name"></span></p>
+</body>
+</html>
+
